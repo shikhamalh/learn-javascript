@@ -19,6 +19,8 @@ paymentMethod= "upi"
 console.log(paymentMethod)
 
 let accountState;
+
+//============Console can also be sued for creating tables in a simple way with console.table function ==============
 console.table([isLoggedIn,accNumber,paymentMethod])
 
 
@@ -39,7 +41,7 @@ console.log (typeof score)
 console.log(typeof (score));
 valueIn = Number(score)
 console.log(typeof valueIn);
-console.log(valueIn);
+console.log(valueIn);  //NAN
 
 console.log ("---------checking undefined---------------")
 
@@ -48,7 +50,7 @@ console.log(typeof score);
 console.log(typeof (score));
  valueIn = Number(score)
 console.log(typeof valueIn);
-console.log(valueIn);
+console.log(valueIn); //NAN
 
 console.log ("----------checking boolean--------------")
 score= false
@@ -56,7 +58,7 @@ console.log(typeof score);
 console.log(typeof (score));
  valueIn = Number(score)
 console.log(typeof valueIn);
-console.log(valueIn);
+console.log(valueIn); //0
 
 console.log ("----------changing numbers to boolean--------------")
 score= 1
@@ -64,4 +66,4 @@ console.log(typeof score);
 console.log(typeof (score));
  valueIn = Boolean(score)
 console.log(typeof valueIn);
-console.log(valueIn);
+console.log(valueIn); //true
